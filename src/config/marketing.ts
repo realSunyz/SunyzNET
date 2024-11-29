@@ -3,20 +3,16 @@ import type { MarketingConfig } from "@/types"
 export const marketingConfig: MarketingConfig = {
   mainNav: [
     {
-      title: "Landing",
-      href: "/landing",
+      title: "PeeringDB",
+      href: "https://peeringdb.com/asn/150289",
     },
     {
-      title: "Changelog",
-      href: "/changelog",
+      title: "BGPTools",
+      href: "https://bgp.tools/as/150289",
     },
     {
-      title: "Blog",
-      href: "/blog",
-    },
-    {
-      title: "Documentation",
-      href: "/docs/getting-started/",
+      title: "Operator",
+      href: "https://sunyz.dev",
     },
   ],
 }

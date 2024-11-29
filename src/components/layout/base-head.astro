@@ -21,7 +21,11 @@ const {
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" sizes="any" href="https://cdn.sunyz.net/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.sunyz.net/favicons/16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.sunyz.net/favicons/32x32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="https://cdn.sunyz.net/favicons/512x512.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.sunyz.net/favicons/apple-touch-icon.png">
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
@@ -37,23 +41,25 @@ const {
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title ? `${title} | Astronomy` : "Astronomy"}</title>
-<meta name="title" content={title ? `${title} | Astronomy` : "Astronomy"} />
+<title>Sunyz Network - AS150289</title>
+<meta name="title" content="Sunyz Network - AS150289" />
 <meta name="description" content={description} />
 
-<!-- Open Graph / Facebook -->
+<!-- Open Graph / Facebook 
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image, Astro.url)} />
+-->
 
-<!-- Twitter -->
+<!-- Twitter
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+ -->
 
 <!-- Dark mode with prevent flickering flash between navigations -->
 <script is:inline>

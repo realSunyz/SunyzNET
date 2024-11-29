@@ -1,14 +1,15 @@
 import type { SidebarNavItem, SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-  name: "Astronomy",
+  name: "Sunyz Network",
   description:
-    "An modern example app built using Astro v4 & shadcn/ui. Inspired by shadcn/taxonomy.",
-  url: "https://astro-nomy.vercel.app",
+    "Sunyz Experimental Global Network, aka. SunyzNET, AS150289",
+  url: "https://sunyz.net",
   ogImage: "https://astro-nomy.vercel.app/og.jpg",
   links: {
-    twitter: "https://twitter.com/miickasmt",
-    github: "https://github.com/mickasmt/astro-nomy",
+    sunyz: "https://sunyz.dev",
+    github: "https://github.com/realSunyz",
+    email: "mailto:noc@sunyz.net"
   },
 };
 
