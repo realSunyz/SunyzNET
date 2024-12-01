@@ -7,51 +7,48 @@
         class="relative aspect-video overflow-hidden rounded-xl md:rounded-lg border" id="map"
       >
       <script>
-        const getMapStyleUrl = () => {
-          const theme = (() => {
-            if (
-              typeof localStorage !== "undefined" &&
-              localStorage.getItem("theme")
-            ) {
-              return localStorage.getItem("theme");
-            }
-            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-              return "dark";
-            }
-            return "light";
-          })();
-
-        return theme === "dark"
-          ? 'mapbox://styles/realsunyz/cm41ayvaq00ge01slbs6l1gd2'
-          : 'mapbox://styles/realsunyz/cm41bhtss003f01rjapj883bf';
-        };
-
-        const styleUrl = getMapStyleUrl();
-
         import mapboxgl from 'mapbox-gl';
+
+        const getMapStyleUrl = () => {
+          const theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          return theme === "dark"
+            ? 'mapbox://styles/realsunyz/cm41ayvaq00ge01slbs6l1gd2?optimize=true'
+            : 'mapbox://styles/realsunyz/cm41bhtss003f01rjapj883bf?optimize=true';
+        };
+        
         mapboxgl.accessToken = 'pk.eyJ1IjoicmVhbHN1bnl6IiwiYSI6ImNtNDB0cjc1cjJkcm0ycnBqd24weTl3ZWwifQ.c3IGyHIj4XJP6z6lvOAzxw';
         const map = new mapboxgl.Map({
           container: 'map',
-          style: styleUrl,
+          style: getMapStyleUrl(),
           projection: 'globe',
+          center: [114.38661, 30.66976],
           zoom: 2
         });
-
+        map.scrollZoom.disable();
+        
         const mel = new mapboxgl.Marker()
-        .setLngLat([144.91563, -37.82241])
-        .addTo(map);
+          .setLngLat([144.91563, -37.82241])
+          .addTo(map);
 
         const fra = new mapboxgl.Marker()
-        .setLngLat([8.74284, 50.10958])
-        .addTo(map);
+          .setLngLat([8.74284, 50.10958])
+          .addTo(map);
 
         const las = new mapboxgl.Marker()
-        .setLngLat([-115.13838, 36.06596])
-        .addTo(map);
+          .setLngLat([-115.13838, 36.06596])
+          .addTo(map);
 
         const zrh = new mapboxgl.Marker()
-        .setLngLat([8.53671, 47.39521])
-        .addTo(map);
+          .setLngLat([8.53671, 47.39521])
+          .addTo(map);
+
+        const hkg = new mapboxgl.Marker()
+          .setLngLat([114.11922, 22.36228])
+          .addTo(map);
+
+        window.addEventListener("storage", () => {
+            map.setStyle(getMapStyleUrl());
+        });
       </script>
       </div>
     </div>
