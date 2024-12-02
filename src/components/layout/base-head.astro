@@ -2,7 +2,6 @@
 import { siteConfig } from "@/config/site";
 import "@/styles/globals.css";
 import { ViewTransitions } from "astro:transitions";
-import { GoogleAnalytics } from 'astro-google-analytics'
 
 interface Props {
   title: string;
@@ -19,7 +18,6 @@ const {
 } = Astro.props;
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" sizes="any" href="https://cdn.sunyz.net/favicons/favicon.ico">
@@ -29,10 +27,9 @@ const {
 <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.sunyz.net/favicons/apple-touch-icon.png">
 <meta name="generator" content={Astro.generator} />
 
-<!-- Font preloads -->
 <link
   rel="preload"
-  href="/fonts/calsans-semibold.woff2"
+  href="https://cdn.sunyz.net/fonts/Calsans-Semibold.woff2"
   as="font"
   type="font/woff2"
   crossorigin
@@ -91,6 +88,3 @@ document.addEventListener("astro:after-swap", setDarkMode);
 </script>
 
 <ViewTransitions />
-
-{/* Google Analytics */}
-<GoogleAnalytics id='G-QW3VQGG2SW' />

@@ -45,33 +45,8 @@ export type DocsConfig = {
   sidebarNav: SidebarNavItem[];
 };
 
-export type MarketingConfig = {
-  mainNav: MainNavItem[];
-};
-
 export type NavMenuConfig = {
-  pagesNav: SidebarNavItem[];
-  examplesNav: SidebarNavItem[];
-  links: MenuItem[];
-};
-
-export type DashboardConfig = {
   mainNav: MainNavItem[];
-  sidebarNav: SidebarNavItem[];
-};
-
-export type SubscriptionPlan = {
-  name: string;
-  description: string;
-  stripePriceId: string;
-};
-
-// Animes types
-export type Airing = {
-  id: number;
-  episode: number;
-  airingAt: number;
-  media: Media;
 };
 
 export type Media = {

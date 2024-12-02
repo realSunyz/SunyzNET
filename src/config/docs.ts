@@ -1,12 +1,7 @@
 import type { DocsConfig } from "@/types";
 
 export const docsConfig: DocsConfig = {
-  mainNav: [
-    {
-      title: "Knowledge Base",
-      href: "/docs/about/",
-    },
-  ],
+  mainNav: [],
   sidebarNav: [
     {
       title: "About",

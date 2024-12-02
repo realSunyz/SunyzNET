@@ -9,7 +9,7 @@ import { SheetMobileNav } from "@/components/layout/sheet-mobile-nav";
 import { navMenuConfig } from "@/config/nav-menu";
 import { docsConfig } from "@/config/docs";
 import { ThemeToggle } from "@/components/theme-toggle";
-// import MainNav from "@/components/layout/main-nav.astro";
+import MainNav from "@/components/layout/main-nav.astro";
 
 type Props = {
   title: string;
@@ -22,23 +22,10 @@ const { title, description } = Astro.props;
 <BaseLayout title={title} description={description}>
   <Header className="border-b">
     <!-- if using only normals links  -->
-    <!-- <MainNav items={docsConfig.mainNav} slot="left-header" />
+    <MainNav items={docsConfig.mainNav} slot="left-header" />
     <SheetMobileNav
       mainNavItems={[...docsConfig.mainNav]}
       sidebarNavItems={[...docsConfig.sidebarNav]}
-      slot="mobile-nav-header"
-      client:load
-    /> -->
-
-    <!-- if use Navigation Menu on desktop -->
-    <MainNavigationMenu slot="left-header" client:load />
-    <SheetMobileNav
-      mainNavItems={[...navMenuConfig.links]}
-      sidebarNavItems={[
-        ...navMenuConfig.pagesNav,
-        ...navMenuConfig.examplesNav,
-        ...docsConfig.sidebarNav,
-      ]}
       slot="mobile-nav-header"
       client:load
     />
