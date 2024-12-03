@@ -35,12 +35,10 @@ const {
   crossorigin
 />
 
-<!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
-<!-- Primary Meta Tags -->
-<title>Sunyz Network - AS150289</title>
-<meta name="title" content="Sunyz Network - AS150289" />
+<title>{title ? `${title} | Sunyz Network` : "Sunyz Network"}</title>
+<meta name="title" content={title ? `${title} | Sunyz Network` : "Sunyz Network"} />
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook 
@@ -59,32 +57,30 @@ const {
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
  -->
 
-<!-- Dark mode with prevent flickering flash between navigations -->
 <script is:inline>
-const setDarkMode = () => {
-  const theme = (() => {
-    if (
-      typeof localStorage !== "undefined" &&
-      localStorage.getItem("theme")
-    ) {
-      return localStorage.getItem("theme");
-    }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-    return "light";
-  })();
+  const setDarkMode = () => {
+    const theme = (() => {
+      if (
+        typeof localStorage !== "undefined" &&
+        localStorage.getItem("theme")
+      ) {
+        return localStorage.getItem("theme");
+      }
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return "dark";
+      }
+      return "light";
+    })();
 
-  if (theme === "light") {
-    document.documentElement.classList.remove("dark");
-  } else {
-    document.documentElement.classList.add("dark");
-  }
-  window.localStorage.setItem("theme", theme);
-};
+    if (theme === "light") {
+      document.documentElement.classList.remove("dark");
+    } else {
+      document.documentElement.classList.add("dark");
+    }
+    window.localStorage.setItem("theme", theme);
+  };
 
-setDarkMode();
-document.addEventListener("astro:after-swap", setDarkMode);
+  setDarkMode();
+  document.addEventListener("astro:after-swap", setDarkMode);
 </script>
-
 <ViewTransitions />
