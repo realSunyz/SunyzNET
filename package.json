@@ -5,13 +5,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "npm run astro:build && npm run docs:build",
+    "build": "npm run docs:build && npm run astro:build",
     "preview": "astro preview",
     "astro": "astro",
     "astro:build": "astro build --remote",
     "astro:build-local": "astro build",
     "docs:dev": "vitepress dev src/docs",
-    "docs:build": "vitepress build src/docs --out dist/docs",
+    "docs:build": "vitepress build src/docs",
     "docs:preview": "vitepress preview src/docs"
   },
   "dependencies": {
