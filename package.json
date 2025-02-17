@@ -5,10 +5,14 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build-local": "astro build",
-    "build": "astro build --remote",
+    "build": "npm run build:astro && npm run build:docs",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "astro:build": "astro build --remote",
+    "astro:build-local": "astro build",
+    "docs:dev": "vitepress dev src/docs",
+    "docs:build": "vitepress build src/docs --out dist/docs",
+    "docs:preview": "vitepress preview src/docs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.2.1",
@@ -42,6 +46,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "mdast-util-toc": "^7.1.0",
     "remark": "^15.0.1",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "vitepress": "^1.6.3"
   }
 }

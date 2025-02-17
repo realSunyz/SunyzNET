@@ -40,6 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# vitepress
+/src/docs/.vitepress/dist
+/src/docs/.vitepress/cache
+
 # IDE configs
 .vscode/
 .idea/
