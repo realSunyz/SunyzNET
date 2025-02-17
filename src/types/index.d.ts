@@ -3,6 +3,7 @@ export type NavItem = {
   href: string;
   disabled?: boolean;
 };
+
 export type MenuItem = NavItem & {
   image?: string;
   description?: string;
@@ -40,40 +41,6 @@ export type SiteConfig = {
   };
 };
 
-export type DocsConfig = {
-  mainNav: MainNavItem[];
-  sidebarNav: SidebarNavItem[];
-};
-
 export type NavMenuConfig = {
   mainNav: MainNavItem[];
 };
-
-export type Media = {
-  id: number;
-  title: Title;
-  coverImage: CoverImage;
-  isAdult: boolean;
-};
-
-type Title = {
-  userPreferred: string;
-};
-
-type CoverImage = {
-  extraLarge: string;
-  large: string;
-};
-
-export type InfoList = {
-  icon: string;
-  title: string;
-  description: string;
-};
-
-export type InfoLdg = {
-  title: string;
-  image: string;
-  description: string;
-  list: InfoList[];
-}
