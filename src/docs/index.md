@@ -1,25 +1,28 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+title: Docs
 layout: home
 
 hero:
-  name: "Sunyz Network"
-  text: "AS150289"
-  tagline: My great project tagline
+  name: "Fast, Global, Reliable"
+  text: "Network"
+  tagline: Docs for AS150289
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Peering Policy
+      link: /peering/ix
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Locations
+      link: /about/pops
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🔒
+    title: RPKI Authentication
+    details: We verify IP address and AS ownership via Resource Public Key Infrastructures to prevent route hijacking and tampering.
+  - icon: 🌐
+    title: Smart Traffic
+    details: Our network has superior performance by using artificial intelligence and dynamic routing optimization technology.
+  - icon: 🛠
+    title: High Availability
+    details: We have a system to monitor edge server metrics, ensuring that the network is available anytime.
 ---
 
