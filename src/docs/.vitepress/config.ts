@@ -12,7 +12,7 @@ export default defineConfig({
     siteTitle: false,
     nav: [
       { text: "Home", link: "../" },
-      { text: "Peering", link: "/peering/ix" },
+      { text: "Peering", link: "/peering/policy" },
       { text: "Communities", link: "/communities/internal" },
     ],
     sidebar: [
@@ -26,6 +26,7 @@ export default defineConfig({
       {
         text: "Peering",
         items: [
+          { text: "General Policy", link: "/peering/policy" },
           { text: "Internet Exchanges", link: "/peering/ix" },
           { text: "Direct Peer", link: "/peering/direct" },
         ],

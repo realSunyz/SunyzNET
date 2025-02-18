@@ -1,6 +1,5 @@
 ---
 title: Peering
-prev: false
 ---
 
 # Internet Exchanges

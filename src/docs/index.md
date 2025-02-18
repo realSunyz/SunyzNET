@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Peering Policy
-      link: /peering/ix
+      link: /peering/policy
     - theme: alt
       text: Locations
       link: /about/pops
