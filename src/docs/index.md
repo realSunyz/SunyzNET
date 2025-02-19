@@ -11,8 +11,8 @@ hero:
       text: Peering Policy
       link: /peering/policy
     - theme: alt
-      text: Locations
-      link: /about/pops
+      text: BGP Communities
+      link: /communities/internal
 
 features:
   - icon: 🔒

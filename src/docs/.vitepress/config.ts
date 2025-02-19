@@ -11,7 +11,7 @@ export default defineConfig({
     logo: 'https://cdn.sunyz.net/logos/sunyznetwork.webp',
     siteTitle: false,
     nav: [
-      { text: "Home", link: "../" },
+      { text: "About", link: "/about/mission" },
       { text: "Peering", link: "/peering/policy" },
       { text: "Communities", link: "/communities/internal" },
     ],
@@ -20,7 +20,8 @@ export default defineConfig({
         text: "About",
         items: [
           { text: "Mission", link: "/about/mission" },
-          { text: "Locations", link: "/about/pops" },
+          { text: "Geofeed", link: "/about/geofeed" },
+          { text: "Contact", link: "/about/contact" },
         ],
       },
       {
