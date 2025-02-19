@@ -23,7 +23,7 @@ Document below follow the format used by the [NLNOG Ring Project](https://ring.n
 | `(150289:112:nnn)` | Learned in `$0` (`$0` from PoP List)       | ✓ Yes |
 | `(150289:113:nnn)` | Learned in `$0` (`$0` from Region List)    | <span style="color:red">✘ Not yet</span> |
 | `(150289:210:nnn)` | Routed via `$0` (`$0` from PoP List)       | ✓ Yes |
-| `(150289:113:nnn)` | Routed via `$0` (`$0` from Region List)    | <span style="color:red">✘ Not yet</span> |
+| `(150289:211:nnn)` | Routed via `$0` (`$0` from Region List)    | <span style="color:red">✘ Not yet</span> |
 | `(150289:310:1)`   | Exported to _Upstream_                     | ✓ Yes |
 | `(150289:310:2)`   | Exported to _Downstream_                   | ✓ Yes |
 | `(150289:310:3)`   | Exported to _Peer_                         | ✓ Yes |
