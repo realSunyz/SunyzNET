@@ -5,30 +5,31 @@ next: false
 
 # Code Definitions
 
+> [!IMPORTANT]
+> Code followed by a "<span style="color:#F9B44E">✘</span>" sign indicates it has not yet been implemented.
+
 ## PoP List
 
-| Location | Abbreviation | Code | Status |
-| - | - | - | - |
-| 🇩🇪 Frankfurt am Main, DE | `de-fra01` | `111` | ✓ Operational |
-| 🇨🇭 Zurich, CH | `ch-zrh01` | `121` | ✓ Operational |
-| 🇺🇸 San Jose, US | `us-sjc01` | `211` | ✓ Operational |
-| 🇨🇦 Toronto, CA | `ca-yyz01` | `221` | ✓ Operational |
-| 🇭🇰 Hong Kong SAR, CN | `cn-hkg01` | `311` | ✓ Operational |
-| 🇭🇰 Hong Kong SAR, CN | `cn-hkg02` | `312` | ✓ Operational |
-| 🇸🇬 Singapore, SG | `sg-sin01` | `321` | ✓ Operational |
-| 🇦🇺 Melbourne, AU | `au-mel01` | `411` | ✓ Operational |
+| Location             | Abbreviation | Code  | Status                                                                 |
+| -------------------- | ------------ | ----- | ---------------------------------------------------------------------- |
+| 🇩🇪 Frankfurt am Main | `de-fra01`   | `111` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1l0zd.svg) |
+| 🇨🇭 Zurich            | `ch-zrh01`   | `121` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1oe0i.svg) |
+| 🇺🇸 San Jose          | `us-sjc01`   | `211` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1oh4o.svg) |
+| 🇨🇦 Toronto           | `ca-yyz01`   | `221` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1pfp0.svg) |
+| 🇭🇰 Hong Kong SAR     | `cn-hkg01`   | `311` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1omy7.svg) |
+| 🇭🇰 Hong Kong SAR     | `cn-hkg02`   | `312` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1srsc.svg) |
+| 🇸🇬 Singapore         | `sg-sin01`   | `321` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1plwb.svg) |
+| 🇦🇺 Melbourne         | `au-mel01`   | `411` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1oe0j.svg) |
 
 ## Region List
 
-Not yet implemented.
-
-| Region | Code |
-| - | - |
-| West Europe | N/A |
-| East Europe | N/A |
-| North America | N/A |
-| South America | N/A |
-| West Asia | N/A |
-| East Asia | N/A |
-| West Oceania | N/A |
-| East Oceania | N/A |
+| Region        | Code                              |
+| ------------- | --------------------------------- |
+| West Europe   | <Badge type="warning" text="✘" /> |
+| East Europe   | <Badge type="warning" text="✘" /> |
+| North America | <Badge type="warning" text="✘" /> |
+| South America | <Badge type="warning" text="✘" /> |
+| West Asia     | <Badge type="warning" text="✘" /> |
+| East Asia     | <Badge type="warning" text="✘" /> |
+| West Oceania  | <Badge type="warning" text="✘" /> |
+| East Oceania  | <Badge type="warning" text="✘" /> |
