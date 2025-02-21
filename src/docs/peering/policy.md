@@ -5,13 +5,9 @@ prev: false
 
 # Peering with AS150289
 
-We have an open peer policy. You can peer with us through our listed Internet Exchanges or through IP tunneling.
+We have an open peer policy, and will peer with networks that have a presence on mutual exchange points in accordance with the policies described below.
 
-## Requirements
-
-The following requirements apply to all peering sessions.
-
-### Technical Requirements
+## Technical Requirements
 
 - Peers must operate a publicly routable and visible Autonomous System Number (ASN).
 - Peers must have at least one publicly routable /24 of IPv4 and/or one /48 of IPv6 space.
@@ -23,11 +19,11 @@ The following requirements apply to all peering sessions.
   - We use Cloudflare's service to validate RPKI information. Any prefixes with INVALID status will be dropped.
 - Peers are encouraged to implement Mutually Agreed Norms for Routing Security (MANRS).
 
-### Operational Requirements
+## Operational Requirements
 
 - Peers must maintain an up-to-date PeeringDB entry, including a 24x7 NOC Contact.
 
-### Traffic Requirements
+## Traffic Requirements
 
 - At this time, there are no minimum traffic requirements for establishing bilateral peering sessions.
 
