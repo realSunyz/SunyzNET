@@ -5,4 +5,4 @@ next: false
 
 # Direct Peer
 
-We are still working on it.
+Please contact us. You can find our contact information [here](/about/contact).
