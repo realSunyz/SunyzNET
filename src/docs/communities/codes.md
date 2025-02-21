@@ -5,8 +5,7 @@ next: false
 
 # Code Definitions
 
-> [!IMPORTANT]
-> Code followed by a "<span style="color:#F9B44E">✘</span>" sign indicates it has not yet been implemented.
+\* Badge <Badge type="warning" text="✘" /> indicates it has not yet been implemented.
 
 ## PoP List
 

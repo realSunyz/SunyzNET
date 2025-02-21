@@ -6,8 +6,7 @@ title: Communities
 
 Document below follow the format used by the [NLNOG Ring Project](https://ring.nlnog.net).
 
-> [!IMPORTANT]
-> Code followed by a "<span style="color:#F9B44E">✘</span>" sign indicates it has not yet been implemented.
+\* Badge <Badge type="warning" text="✘" /> indicates it has not yet been implemented.
 
 ## Forbidden Routes
 | Community          | Description                                                                                   |
