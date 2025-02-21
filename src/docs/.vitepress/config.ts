@@ -48,6 +48,7 @@ export default defineConfig({
       copyright: 'Copyright © 2022-2025 Yanzheng Sun'
     }
   },
+  cleanUrls: true,
   lastUpdated: false,
   outDir: "../../public/docs",
   base: "/docs/",
