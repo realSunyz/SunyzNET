@@ -3,13 +3,14 @@ title: About
 next: false
 ---
 
-# About AS150289
-
-We are an experimental global network designed for education and research purposes.
-
-## Contact us
+# Contact us
 
 Should you have any questions or concerns, please contact us at:
 
-- Email: noc@sunyz.net
+- Email:
+    - NOC & Peering: noc@sunyz.net
+    - Abuse: abuse@sunyz.net
 - Telegram: [@AS150289](http://t.me/AS150289)
+- Phone: `+852 6091-4629` (SMS only)
+
+Standard NOC working hours are 8:00 AM to 10:00 PM UTC+8.
