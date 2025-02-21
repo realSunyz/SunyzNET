@@ -2,15 +2,15 @@
 title: Communities
 ---
 
-# AS150289 BGP Communities
-
-We have established a comprehensive BGP community structure to help our customers manage their routing policies effectively.
-
-## Control Communities
+# Control Communities
 
 Document below follow the format used by the [NLNOG Ring Project](https://ring.nlnog.net).
 
-| Community          | Description                                                  | Implemented                              |
-| ------------------ | ------------------------------------------------------------ | ---------------------------------------- |
-| `(150289:218:nnn)` | Do **NOT** route this route via `$0` (`$0` from PoP List)    | ✓ Yes                                    |
-| `(150289:219:nnn)` | Do **NOT** route this route via `$0` (`$0` from Region List) | <span style="color:red">✘ Not yet</span> |
+> [!IMPORTANT]
+> Code followed by a "<span style="color:#F9B44E">✘</span>" sign indicates it has not yet been implemented.
+
+## Forbidden Routes
+| Community          | Description                                                                                   |
+| ------------------ | --------------------------------------------------------------------------------------------- |
+| `(150289:218:nnn)` | Do **NOT** route this route via `$0` (`$0` from PoP List)                                     |
+| `(150289:219:nnn)` | Do **NOT** route this route via `$0` (`$0` from Region List) <Badge type="warning" text="✘" /> |
