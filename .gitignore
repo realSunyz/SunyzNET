@@ -23,6 +23,7 @@
 /dist
 public/*
 !public/robots.txt
+!public/_headers
 
 # debug
 logs
