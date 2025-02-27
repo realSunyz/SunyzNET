@@ -6,9 +6,21 @@ export default defineConfig({
   titleTemplate: ":title | SunyzNET",
   description:
     "Docs for Sunyz Network (AS150289, aka. SunyzNET), which is an experimental IPv6-only networking project focused on educational and research purposes, operated by Yanzheng SUN.",
-  head: [["link", { rel: "icon", href: "https://cdn.sunyz.net/favicons/favicon.ico" }]],
+  head: [
+    [
+      "link",
+      { rel: "icon", href: "https://cdn.sunyz.net/favicons/favicon.ico" },
+    ],
+    [
+      "script",
+      {
+        src: "https://analytics.sunyz.net/script.js",
+        "data-website-id": "b14beceb-8732-424c-8e13-d1454c93ace1",
+      },
+    ],
+  ],
   themeConfig: {
-    logo: 'https://cdn.sunyz.net/logos/sunyznetwork.webp',
+    logo: "https://cdn.sunyz.net/logos/sunyznetwork.webp",
     siteTitle: false,
     nav: [
       { text: "About", link: "/about/mission" },
@@ -41,21 +53,19 @@ export default defineConfig({
         ],
       },
     ],
-    socialLinks: [
-      { icon: "github", link: "https://github.com/SunyzNET" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/SunyzNET" }],
     footer: {
-      copyright: 'Copyright © 2022-2025 Yanzheng Sun'
-    }
+      copyright: "Copyright © 2022-2025 Yanzheng Sun",
+    },
   },
   locales: {
     root: {
       label: "English",
-      lang: "en"
+      lang: "en",
     },
     "zh-cn": {
       label: "简体中文",
-      lang: 'zh-Hans', 
+      lang: "zh-Hans",
       description:
         "Docs for Sunyz Network (AS150289, aka. SunyzNET), which is an experimental IPv6-only networking project focused on educational and research purposes, operated by Yanzheng SUN.",
       themeConfig: {
@@ -91,8 +101,8 @@ export default defineConfig({
           },
         ],
         footer: {
-          copyright: '版权所有 © 2022-2025 Yanzheng Sun'
-        }
+          copyright: "版权所有 © 2022-2025 Yanzheng Sun",
+        },
       },
     },
   },
