@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  lang: "en-US",
+  lang: "en",
   title: "SunyzNET",
   titleTemplate: ":title | SunyzNET",
   description:
@@ -47,6 +47,54 @@ export default defineConfig({
     footer: {
       copyright: 'Copyright © 2022-2025 Yanzheng Sun'
     }
+  },
+  locales: {
+    root: {
+      label: "English",
+      lang: "en"
+    },
+    "zh-cn": {
+      label: "简体中文",
+      lang: 'zh-Hans', 
+      description:
+        "Docs for Sunyz Network (AS150289, aka. SunyzNET), which is an experimental IPv6-only networking project focused on educational and research purposes, operated by Yanzheng SUN.",
+      themeConfig: {
+        nav: [
+          { text: "关于", link: "/zh-cn/about/mission" },
+          { text: "对等互联", link: "/zh-cn/peering/policy" },
+          { text: "BGP 社区", link: "/zh-cn/communities/internal" },
+        ],
+        sidebar: [
+          {
+            text: "关于",
+            items: [
+              { text: "愿景", link: "/zh-cn/about/mission" },
+              { text: "Geofeed", link: "/zh-cn/about/geofeed" },
+              { text: "联系方式", link: "/zh-cn/about/contact" },
+            ],
+          },
+          {
+            text: "对等互联",
+            items: [
+              { text: "一般政策", link: "/zh-cn/peering/policy" },
+              { text: "互联网交换点", link: "/zh-cn/peering/ix" },
+              { text: "直接对等互联", link: "/zh-cn/peering/direct" },
+            ],
+          },
+          {
+            text: "BGP 社区",
+            items: [
+              { text: "内部社区", link: "/zh-cn/communities/internal" },
+              { text: "控制社区", link: "/zh-cn/communities/control" },
+              { text: "代码定义", link: "/zh-cn/communities/codes" },
+            ],
+          },
+        ],
+        footer: {
+          copyright: '版权所有 © 2022-2025 Yanzheng Sun'
+        }
+      },
+    },
   },
   cleanUrls: true,
   lastUpdated: false,
