@@ -1,5 +1,5 @@
 ---
-title: Communities
+title: Control BGP Communities
 ---
 
 # Control Communities

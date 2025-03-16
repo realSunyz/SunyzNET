@@ -1,5 +1,5 @@
 ---
-title: Communities
+title: Internal BGP Communities
 prev: false
 ---
 

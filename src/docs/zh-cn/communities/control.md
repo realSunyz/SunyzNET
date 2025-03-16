@@ -1,5 +1,5 @@
 ---
-title: BGP 社区
+title: 控制类 BGP 社区
 ---
 
 # 控制类社区

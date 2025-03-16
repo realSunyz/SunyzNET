@@ -1,5 +1,5 @@
 ---
-title: Peering
+title: Direct Peer
 next: false
 ---
 

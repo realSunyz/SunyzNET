@@ -3,9 +3,9 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "en",
   title: "SunyzNET",
-  titleTemplate: ":title | SunyzNET",
+  titleTemplate: ":title | Sunyz Network Docs",
   description:
-    "Docs for Sunyz Network (AS150289, aka. SunyzNET), which is an experimental IPv6-only networking project focused on educational and research purposes, operated by Yanzheng SUN.",
+    "Docs for Sunyz Network (AS150289, aka. SunyzNET), which is an experimental networking project focused on educational and research purposes.",
   head: [
     [
       "link",
@@ -66,7 +66,7 @@ export default defineConfig({
       label: "简体中文",
       lang: "zh-Hans",
       description:
-        "Docs for Sunyz Network (AS150289, aka. SunyzNET), which is an experimental IPv6-only networking project focused on educational and research purposes, operated by Yanzheng SUN.",
+        "Sunyz Network 技术支持文档（AS150289, aka. SunyzNET）。我们是一个以教育和研究为目的的实验性全球网络。",
       themeConfig: {
         nav: [
           { text: "关于", link: "/zh-cn/about/mission" },

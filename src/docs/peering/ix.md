@@ -1,5 +1,5 @@
 ---
-title: Peering
+title: Internet Exchanges
 ---
 
 # Internet Exchanges

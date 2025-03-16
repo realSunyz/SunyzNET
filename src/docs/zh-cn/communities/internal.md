@@ -1,5 +1,5 @@
 ---
-title: BGP 社区
+title: 内部 BGP 社区
 prev: false
 ---
 
