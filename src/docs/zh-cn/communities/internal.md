@@ -7,6 +7,10 @@ prev: false
 
 以下文档采用 [NLNOG Ring Project](https://ring.nlnog.net) 使用的格式
 
+::: info 声明
+本文档的中文版本仅供参考，如与英文版本有任何抵触或不相符之处，应以英文版本为准。
+:::
+
 \* 标识 <Badge type="warning" text="✘" /> 表示尚未实施。
 
 ## 导入的路由
