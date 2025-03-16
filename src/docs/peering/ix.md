@@ -4,7 +4,7 @@ title: Peering
 
 # Internet Exchanges
 
-You can peer with us through the listed IX below or in PeeringDB. Peering over RS is strongly recommended over direct sessions.
+You can peer with us through the listed IX below or in [PeeringDB](https://www.peeringdb.com/asn/150289). Peering over RS is strongly recommended over direct sessions.
 
 \* Badge <Badge type="tip" text="RS" /> indicates we are currently peering with route servers of this IX.
 
