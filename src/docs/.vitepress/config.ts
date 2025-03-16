@@ -32,7 +32,6 @@ export default defineConfig({
         text: "About",
         items: [
           { text: "Mission", link: "/about/mission" },
-          { text: "Geofeed", link: "/about/geofeed" },
           { text: "Contact", link: "/about/contact" },
         ],
       },
@@ -79,7 +78,6 @@ export default defineConfig({
             text: "关于",
             items: [
               { text: "愿景", link: "/zh-cn/about/mission" },
-              { text: "Geofeed", link: "/zh-cn/about/geofeed" },
               { text: "联系方式", link: "/zh-cn/about/contact" },
             ],
           },
@@ -87,8 +85,8 @@ export default defineConfig({
             text: "对等互联",
             items: [
               { text: "一般政策", link: "/zh-cn/peering/policy" },
-              { text: "互联网交换点", link: "/zh-cn/peering/ix" },
-              { text: "直接对等互联", link: "/zh-cn/peering/direct" },
+              { text: "通过 RS", link: "/zh-cn/peering/ix" },
+              { text: "私有会话", link: "/zh-cn/peering/direct" },
             ],
           },
           {
