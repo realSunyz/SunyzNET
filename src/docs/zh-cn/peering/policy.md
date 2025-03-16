@@ -21,7 +21,7 @@ prev: false
   - 如果您使用的 IRR（如 AltDB）未在上述列表中，请联系我们的 NOC，我们将进行审查。
 - 对等方必须在资源公钥基础设施（RPKI）存储库中使用路由来源授权（ROA）注册其路由。
   - 我们使用 Cloudflare 的服务验证 RPKI 信息。任何与 ROA 不匹配的前缀将被丢弃。
-- 我们鼓励对等方实施“互联网路由安全规范”（[MANRS](https://manrs.org)）。
+- 我们鼓励对等方实施“路由安全共同协议规范”（[MANRS](https://manrs.org)）。
 
 ## 运维要求
 
