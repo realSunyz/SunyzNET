@@ -3,7 +3,7 @@ import type { SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Sunyz Network",
   description:
-    "Sunyz Network (AS150289, aka. SunyzNET) is an experimental IPv6-only networking project focused on educational and research purposes, operated by Yanzheng SUN.",
+    "Sunyz Network (AS150289, aka. SunyzNET) is an experimental networking project focused on educational and research purposes.",
   url: "https://sunyz.net",
   ogImage: "",
   links: {
