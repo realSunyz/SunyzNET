@@ -108,4 +108,7 @@ export default defineConfig({
   lastUpdated: false,
   outDir: "../../public/docs",
   base: "/docs/",
+  sitemap: {
+    hostname: "https://sunyz.net/docs",
+  },
 });
