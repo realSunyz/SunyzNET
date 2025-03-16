@@ -5,7 +5,7 @@ prev: false
 
 # Peering with AS150289
 
-We have an open peer policy, and will peer with networks that have a presence on mutual exchange points in accordance with the policies described below.
+We have an open peering policy, and will peer with other networks following the requirements listed below.
 
 ## Technical Requirements
 
@@ -16,8 +16,8 @@ We have an open peer policy, and will peer with networks that have a presence on
   - We collect data from APNIC, RIPE, ARIN, AFRINIC, LACNIC, and RADb.
   - If you use an IRR database (such as AltDB) that is not listed, contact our NOC, and we will review it. 
 - Peers are required to register their routes in the Resource Public Key Infrastructure (RPKI) repository using Route Origin Authorization (ROA) objects.
-  - We use Cloudflare's service to validate RPKI information. Any prefixes with INVALID status will be dropped.
-- Peers are encouraged to implement Mutually Agreed Norms for Routing Security (MANRS).
+  - We use Cloudflare's service to validate RPKI information. Any prefixes with invalid status will be dropped.
+- Peers are encouraged to implement Mutually Agreed Norms for Routing Security ([MANRS](https://manrs.org)).
 
 ## Operational Requirements
 
@@ -27,7 +27,7 @@ We have an open peer policy, and will peer with networks that have a presence on
 
 - At this time, there are no minimum traffic requirements for establishing bilateral peering sessions.
 
-## Peering Information
+## Our Information
 
 For your convenience, here is some information about our network.
 
