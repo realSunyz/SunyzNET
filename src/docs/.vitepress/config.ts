@@ -109,6 +109,6 @@ export default defineConfig({
   outDir: "../../public/docs",
   base: "/docs/",
   sitemap: {
-    hostname: "https://sunyz.net/docs",
+    hostname: "https://sunyz.net/docs/",
   },
 });
