@@ -23,7 +23,7 @@
 /dist
 public/*
 !public/robots.txt
-!public/_headers
+!public/sitemap.xml
 
 # debug
 logs
@@ -48,9 +48,12 @@ next-env.d.ts
 /src/docs/.vitepress/dist
 /src/docs/.vitepress/cache
 
+# cloudflare
+/.wrangler
+
 # IDE configs
-.vscode/
-.idea/
+/.vscode
+/.idea
 
 # fucking macOS
 .DS_Store
