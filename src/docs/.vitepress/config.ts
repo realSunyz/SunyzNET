@@ -85,7 +85,7 @@ export default defineConfig({
             text: "对等互联",
             items: [
               { text: "一般政策", link: "/zh-cn/peering/policy" },
-              { text: "通过 RS", link: "/zh-cn/peering/ix" },
+              { text: "通过 IXP", link: "/zh-cn/peering/ix" },
               { text: "私有会话", link: "/zh-cn/peering/direct" },
             ],
           },

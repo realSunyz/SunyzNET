@@ -1,17 +1,12 @@
 ---
-title: 通过 RS 对等互联
+title: 互联网交换点
 ---
 
 # 互联网交换点
 
-您可以通过下列或 [PeeringDB](https://www.peeringdb.com/asn/150289) 中列出的 IX 与我们进行对等互联。我们强烈建议通过 RS 进行对等互联，而不是直接会话。
+您可以通过下列表格或 [PeeringDB](https://www.peeringdb.com/asn/150289) 中列出的互联网交换点 (IXPs) 与我们进行对等互联. 我们强烈建议通过路由服务器 (RS) 进行对等互联, 而不是私有会话.
 
-::: info 声明
-本文档的中文版本仅供参考，如与英文版本有任何抵触或不相符之处，应以英文版本为准。
-:::
-
-\* 标识 <Badge type="tip" text="RS" /> 表示我们目前正在与该 IX 的路由服务器进行对等互联。
-
+\* 标签 <Badge type="tip" text="RS" /> 表示我们目前正在与该 IXP 的路由服务器进行对等互联.
 
 ## 物理交换点
 
@@ -25,6 +20,6 @@ title: 通过 RS 对等互联
 | 名称                                                                               | IPv4       | IPv6                         |
 | ---------------------------------------------------------------------------------- | ---------- | ---------------------------- |
 | [Impart IX](https://www.peeringdb.com/ix/4185) <Badge type="tip" text="RS" />      | 185.0.34.8 | 2001:7f8:145:1001:0:15:289:1 |
-| [ZXIX Hong Kong](https://www.peeringdb.com/ix/3246) <Badge type="tip" text="RS" /> | -          | 2406:840:1f:1000:0:15:289:1  |
-| [Fog IXP](https://www.peeringdb.com/ix/3756) <Badge type="info" text="ERROR" />    | -          | 2001:7f8:ca:1:0:15:289:1     |
+| [ZXIX Hong Kong](https://www.peeringdb.com/ix/3246) <Badge type="info" text="N/A" /> | -          | 2406:840:1f:1000:0:15:289:1  |
+| [Fog IXP](https://www.peeringdb.com/ix/3756) <Badge type="tip" text="RS" />    | -          | 2001:7f8:ca:1:0:15:289:1     |
 | [4b42 IXP](https://www.peeringdb.com/ix/2447) <Badge type="tip" text="RS" />       | -          | 2001:7f8:d0::2:4b11:1        |
