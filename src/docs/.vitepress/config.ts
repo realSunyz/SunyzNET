@@ -25,7 +25,7 @@ export default defineConfig({
     nav: [
       { text: "About", link: "/about/mission" },
       { text: "Peering", link: "/peering/policy" },
-      { text: "Communities", link: "/communities/internal" },
+      { text: "Communities", link: "/communities/information" },
     ],
     sidebar: [
       {
@@ -40,13 +40,13 @@ export default defineConfig({
         items: [
           { text: "General Policy", link: "/peering/policy" },
           { text: "Internet Exchanges", link: "/peering/ix" },
-          { text: "Direct Peer", link: "/peering/direct" },
+          { text: "Direct Session", link: "/peering/direct" },
         ],
       },
       {
         text: "BGP Communities",
         items: [
-          { text: "Internal Communities", link: "/communities/internal" },
+          { text: "Information Communities", link: "/communities/information" },
           { text: "Control Communities", link: "/communities/control" },
           { text: "Code Definition", link: "/communities/codes" },
         ],
@@ -71,7 +71,7 @@ export default defineConfig({
         nav: [
           { text: "关于", link: "/zh-cn/about/mission" },
           { text: "对等互联", link: "/zh-cn/peering/policy" },
-          { text: "BGP 社区", link: "/zh-cn/communities/internal" },
+          { text: "BGP 社区", link: "/zh-cn/communities/information" },
         ],
         sidebar: [
           {
@@ -85,15 +85,15 @@ export default defineConfig({
             text: "对等互联",
             items: [
               { text: "一般政策", link: "/zh-cn/peering/policy" },
-              { text: "通过 IXP", link: "/zh-cn/peering/ix" },
+              { text: "通过 IX", link: "/zh-cn/peering/ix" },
               { text: "私有会话", link: "/zh-cn/peering/direct" },
             ],
           },
           {
             text: "BGP 社区",
             items: [
-              { text: "内部社区", link: "/zh-cn/communities/internal" },
-              { text: "控制社区", link: "/zh-cn/communities/control" },
+              { text: "信息类社区", link: "/zh-cn/communities/information" },
+              { text: "控制类社区", link: "/zh-cn/communities/control" },
               { text: "代码定义", link: "/zh-cn/communities/codes" },
             ],
           },

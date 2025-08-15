@@ -1,9 +1,9 @@
 ---
-title: Internal BGP Communities
+title: Information BGP Communities
 prev: false
 ---
 
-# Internal Communities
+# Information Communities
 
 Document below follow the format used by the [NLNOG Ring Project](https://ring.nlnog.net).
 
@@ -24,6 +24,10 @@ Document below follow the format used by the [NLNOG Ring Project](https://ring.n
 
 ## Routed Routes
 
+::: danger Please be advised ...
+All the "Routed Routes" communities are **deprecated**, and will be removed soon.
+:::
+
 | Community          | Description                                                               |
 | ------------------ | ------------------------------------------------------------------------- |
 | `(150289:110:10)`  | Originated in _AS150289_                                                  |
@@ -32,13 +36,17 @@ Document below follow the format used by the [NLNOG Ring Project](https://ring.n
 
 ## Exported Routes
 
-| Community          | Description                                                                  |
-| ------------------ | ---------------------------------------------------------------------------- |
-| `(150289:310:1)`   | Exported to _Upstream_                                                       |
-| `(150289:310:2)`   | Exported to _Downstream_                                                     |
-| `(150289:310:3)`   | Exported to _Peer_                                                           |
-| `(150289:310:4)`   | Exported to _Direct Peer_                                                    |
-| `(150289:310:5)`   | Exported to _IXP_                                                            |
-| `(150289:311:nnn)` | Exported to `AS$0`                                                           |
-| `(150289:312:nnn)` | Exported from `$0` (`$0` from PoP List)                                      |
-| `(150289:313:nnn)` | Exported from `$0` (`$0` from Region List) <Badge type="warning" text="✘" /> |
+::: danger Please be advised ...
+All the "Exported Routes" communities are **deprecated**, and will be removed soon.
+:::
+
+| Community          | Description                                |
+| ------------------ | ------------------------------------------ |
+| `(150289:310:1)`   | Exported to _Upstream_                     |
+| `(150289:310:2)`   | Exported to _Downstream_                   |
+| `(150289:310:3)`   | Exported to _Peer_                         |
+| `(150289:310:4)`   | Exported to _Direct Peer_                  |
+| `(150289:310:5)`   | Exported to _IXP_                          |
+| `(150289:311:nnn)` | Exported to `AS$0`                         |
+| `(150289:312:nnn)` | Exported from `$0` (`$0` from PoP List)    |
+| `(150289:313:nnn)` | Exported from `$0` (`$0` from Region List) |
