@@ -31,7 +31,7 @@ We have an open peering policy, and will peer with other networks following the 
 
 For your convenience, here is some information about our network.
 
-::: tip Please be advised ...
+::: warning Please be advised ...
 We strive to keep this page up to date, but please also refer to our PeeringDB entry for the most accurate and current details.
 :::
 

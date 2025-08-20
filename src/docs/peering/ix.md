@@ -6,7 +6,7 @@ title: Internet Exchange Points
 
 You can peer with us through the listed IXPs below or in [PeeringDB](https://www.peeringdb.com/asn/150289). Peering over Route Servers (RS) is strongly recommended over direct sessions.
 
-::: tip Please be advised ...
+::: warning Please be advised ...
 We strive to keep this page up to date, but please also refer to our PeeringDB entry for the most accurate and current details.
 :::
 

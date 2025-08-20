@@ -44,6 +44,13 @@ export default defineConfig({
         ],
       },
       {
+        text: "Algorithm",
+        items: [
+          { text: "Received Routes", link: "/algorithm/import" },
+          { text: "Exported Routes", link: "/algorithm/export" },
+        ],
+      },
+      {
         text: "BGP Communities",
         items: [
           { text: "Information Communities", link: "/communities/information" },
@@ -87,6 +94,13 @@ export default defineConfig({
               { text: "一般政策", link: "/zh-cn/peering/policy" },
               { text: "通过 IX", link: "/zh-cn/peering/ix" },
               { text: "私有会话", link: "/zh-cn/peering/direct" },
+            ],
+          },
+          {
+            text: "算法",
+            items: [
+              { text: "导入路由", link: "/zh-cn/algorithm/import" },
+              { text: "导出路由", link: "/zh-cn/algorithm/export" },
             ],
           },
           {
