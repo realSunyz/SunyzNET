@@ -17,7 +17,7 @@ export default defineConfig({
     yeskunallumami({
       domains: ["sunyz.net"],
       endpointUrl: "https://analytics.sunyz.net",
-      id: "b14beceb-8732-424c-8e13-d1454c93ace1",
+      id: "a8aaa218-a8e5-4aaa-a631-23d431cdc5bd",
     }),
   ],
   output: "server",
