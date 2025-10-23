@@ -14,11 +14,11 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    yeskunallumami({
-      domains: ["sunyz.net"],
-      endpointUrl: "https://analytics.sunyz.net",
-      id: "a8aaa218-a8e5-4aaa-a631-23d431cdc5bd",
-    }),
+    // yeskunallumami({
+    //   domains: ["sunyz.net"],
+    //   endpointUrl: "https://analytics.sunyz.net",
+    //   id: "a8aaa218-a8e5-4aaa-a631-23d431cdc5bd",
+    // }),
   ],
   output: "server",
   adapter: cloudflare(),
