@@ -5,7 +5,7 @@ prev: false
 
 # Received Routes
 
-This page describes how AS150289 learns routes from Upstreams, Downstreams, Internet Exchanges, and Peers. 
+This page describes how AS150289 learns routes from Upstream, Downstream, Internet Exchange, and Peer. 
 
 ## General Filters
 
@@ -42,22 +42,25 @@ This section explains how our router work with internal BGP routes.
 
 This section explains how our router work with external BGP routes.
 
-### Upstreams
+### Upstream
 
 1. Apply the General Filters.
+2. Tag routes with appropriate BGP communities.
 
-### Downstreams
+### Downstream
 
 We do not support downstream at this time.
 
-### IX Route Servers
+### IX Route Server
 
 1. Apply the General Filters.
+2. Tag routes with appropriate BGP communities.
 
-### Peers
+### Peer
 
 1. Retrieve the peer ASN's AS-SET, and prefix limits from PeeringDB.
     - If the AS-SET field is blank, or the set is empty (no ASNs in it), we fall back to using the peer ASN itself.
     - If the suggested IPv4 / IPv6 prefix limit is 0, the corresponding session will be shut down.
 2. Apply the General Filters.
 3. Reject all routes that do not match the peer ASN's AS-SET.
+4. Tag routes with appropriate BGP communities.

@@ -5,7 +5,7 @@ next: false
 
 # Exported Routes
 
-This page describes how AS150289 exports routes to Upstreams, Downstreams, Internet Exchanges, and Peers.
+This page describes how AS150289 exports routes to Upstream, Downstream, Internet Exchange, and Peer.
 
 Please be advised that, for operational reasons, such as blacklists, route optimization, and special customer requirements, only our main filtering policies are disclosed in this page. Additional internal filters may be applied but are not publicly documented.
 
@@ -36,16 +36,30 @@ The following rules apply to all scenarios unless explicitly noted.
 
 This section explains how our router work with external BGP routes.
 
-### Upstreams
+### Upstream
 
 1. Apply the General Filters.
 2. Accept all prefixes from our AS-SET with valid IRR route objects.
     - The AS-SET contains our own ASN and our downstream customers.
     - Prefix filters are regenerated each day using bgpq4 and automatically deployed to all routers.
+3. Prepend or reject prefixes based on its BGP communities.
 
-### IX Route Servers
+### IX Route Server
 
 1. Apply the General Filters.
 2. Accept all prefixes from our AS-SET with valid IRR route objects.
     - The AS-SET contains our own ASN and our downstream customers.
     - Prefix filters are regenerated each day using bgpq4 and automatically deployed to all routers.
+3. Prepend or reject prefixes based on its BGP communities.
+
+### Downstream
+
+We do not support downstream at this time.
+
+### Peer
+
+1. Apply the General Filters.
+2. Accept all prefixes from our AS-SET with valid IRR route objects.
+    - The AS-SET contains our own ASN and our downstream customers.
+    - Prefix filters are regenerated each day using bgpq4 and automatically deployed to all routers.
+3. Prepend or reject prefixes based on its BGP communities.
