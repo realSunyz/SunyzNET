@@ -31,3 +31,21 @@ The following rules apply to all scenarios unless explicitly noted.
     ::: tip Why we do this?
     A route marked Invalid in RPKI means the origin AS does not match the ROA. This is almost always a hijack attempt or misconfiguration.
     :::
+
+## eBGP
+
+This section explains how our router work with external BGP routes.
+
+### Upstreams
+
+1. Apply the General Filters.
+2. Accept all prefixes from our AS-SET with valid IRR route objects.
+    - The AS-SET contains our own ASN and our downstream customers.
+    - Prefix filters are regenerated each day using bgpq4 and automatically deployed to all routers.
+
+### IX Route Servers
+
+1. Apply the General Filters.
+2. Accept all prefixes from our AS-SET with valid IRR route objects.
+    - The AS-SET contains our own ASN and our downstream customers.
+    - Prefix filters are regenerated each day using bgpq4 and automatically deployed to all routers.

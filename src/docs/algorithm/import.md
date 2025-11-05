@@ -34,7 +34,8 @@ The following rules apply to all scenarios unless explicitly noted.
 
 This section explains how our router work with internal BGP routes.
 
-1. Accept all prefixes belonging to ourselves.
+1. Accept all prefixes belongs to ourselves with valid IRR route objects.
+    - Prefix filters are regenerated each day using bgpq4 and automatically deployed to all routers.
 2. Apply the General Filters.
 
 ## eBGP
