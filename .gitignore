@@ -47,6 +47,7 @@ next-env.d.ts
 # vitepress
 /src/docs/.vitepress/dist
 /src/docs/.vitepress/cache
+/src/docs/deprecated
 
 # cloudflare
 /.wrangler
