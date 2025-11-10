@@ -8,100 +8,68 @@
     <url>
         <loc>https://sunyz.net/docs/about/mission/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/about/mission/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/about/mission/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/about/mission/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/about/mission/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/about/mission/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/about/contact/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/about/contact/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/about/contact/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/about/contact/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/about/contact/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/about/contact/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/peering/policy/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/peering/policy/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/peering/policy/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/peering/policy/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/peering/policy/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/peering/policy/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/peering/direct/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/peering/direct/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/peering/direct/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/peering/direct/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/peering/direct/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/peering/direct/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/peering/ix/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/peering/ix/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/peering/ix/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/peering/ix/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/peering/ix/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/peering/ix/" />
     </url>
 
     <url>
         <loc>https://sunyz.net/docs/communities/codes/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/communities/codes/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/communities/codes/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/communities/codes/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/communities/codes/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/communities/codes/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/communities/control/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/communities/control/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/communities/control/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/communities/control/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://sunyz.net/docs/communities/control/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/communities/control/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/communities/internal/</loc>
         <xhtml:link rel="alternate" hreflang="en"
             href="https://sunyz.net/docs/communities/internal/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/communities/internal/" />
     </url>
     <url>
         <loc>https://sunyz.net/docs/zh-cn/communities/internal/</loc>
         <xhtml:link rel="alternate" hreflang="en"
             href="https://sunyz.net/docs/communities/internal/" />
-        <xhtml:link rel="alternate" hreflang="zh-CN"
-            href="https://sunyz.net/docs/zh-cn/communities/internal/" />
     </url>
 </urlset>
