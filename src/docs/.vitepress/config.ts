@@ -119,7 +119,7 @@ export default defineConfig({
   //   },
   // },
   cleanUrls: true,
-  lastUpdated: false,
+  lastUpdated: true,  
   outDir: "../../public/docs",
   base: "/docs/",
 });
