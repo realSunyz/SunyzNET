@@ -1,7 +1,7 @@
-img.manrs-darkmode {
+img.manrs {
   content: url("https://cdn.sunyz.net/logos/manrs-dark.webp");
 }
 
-html.dark img.manrs-darkmode {
+html.dark img.manrs {
   content: url("https://cdn.sunyz.net/logos/manrs-light.webp");
 }

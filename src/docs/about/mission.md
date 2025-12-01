@@ -7,7 +7,7 @@ prev: false
 
 We are an experimental global network designed for education and research purposes.
 
-## Our mission
+## Our Mission
 
 As a platform focusing on the education and research of basic Internet technologies, we are committed to ...
 
@@ -15,10 +15,10 @@ As a platform focusing on the education and research of basic Internet technolog
 
 - **Safe Routing Practices**: As an active participant in MANRS (Mutually Agreed Norms for Routing Security), we strictly adhere to secure routing principles, promoting network stability and security, and contributing to a safer global Internet ecosystem.
 
-## MANRS
+## Routing Security
 
-We are a proud member of MANRS.
+We are a proud member of Mutually Agreed Norms for Routing Security (MANRS).
 
-<img src="https://cdn.sunyz.net/logos/manrs-dark.webp" alt="MANRS" width="150" class="manrs-darkmode"/>
+<img src="https://cdn.sunyz.net/logos/manrs-dark.webp" alt="MANRS Logo" width="150" class="manrs"/>
 
 Our participant page: https://manrs.org/participant/6448
