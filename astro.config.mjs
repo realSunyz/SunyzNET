@@ -10,15 +10,17 @@ export default defineConfig({
   site: "https://sunyz.net",
   integrations: [
     icon(),
-    react(),
+    react(),  
     tailwind({
       applyBaseStyles: false,
     }),
-    // yeskunallumami({
-    //   domains: ["sunyz.net"],
-    //   endpointUrl: "https://analytics.sunyz.net",
-    //   id: "a8aaa218-a8e5-4aaa-a631-23d431cdc5bd",
-    // }),
+    yeskunallumami({
+      domains: ["sunyz.net"],
+      endpointUrl: "https://umami.sunyz.net",
+      hostUrl: "/api/cloud",
+      id: "3f56f50f-ea4c-4ed9-8deb-5c342efa689b",
+      trackerScriptName: "cloud.js"
+    }),
   ],
   output: "server",
   adapter: cloudflare(),
