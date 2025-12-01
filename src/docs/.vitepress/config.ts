@@ -11,13 +11,13 @@ export default defineConfig({
       "link",
       { rel: "icon", href: "https://cdn.sunyz.net/favicons/favicon.ico" },
     ],
-    // [
-    //   "script",
-    //   {
-    //     src: "https://analytics.sunyz.net/script.js",
-    //     "data-website-id": "b14beceb-8732-424c-8e13-d1454c93ace1",
-    //   },
-    // ],
+    [
+      "script",
+      {
+        src: "https://umami.sunyz.net/cloud.js",
+        "data-website-id": "3f56f50f-ea4c-4ed9-8deb-5c342efa689b",
+      },
+    ],
   ],
   themeConfig: {
     logo: "https://cdn.sunyz.net/logos/sunyznetwork.webp",
