@@ -17,7 +17,6 @@ export default defineConfig({
     yeskunallumami({
       domains: ["sunyz.net"],
       endpointUrl: "https://umami.sunyz.net",
-      hostUrl: "/api/cloud",
       id: "3f56f50f-ea4c-4ed9-8deb-5c342efa689b",
       trackerScriptName: "cloud.js"
     }),
