@@ -1,0 +1,12 @@
+img.manrs {
+  content: url("https://cdn.sunyz.net/logos/manrs-dark.webp");
+}
+
+html.dark img.manrs {
+  content: url("https://cdn.sunyz.net/logos/manrs-light.webp");
+}
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #5460f9, #12b3eb);
+}
