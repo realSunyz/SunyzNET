@@ -10,13 +10,13 @@ hero:
   actions:
     - theme: brand
       text: Our Mission
-      link: ./about/mission
+      link: /docs/about/mission
     - theme: alt
       text: Get Peering
-      link: ./peering/policy
+      link: /docs/peering/policy
     - theme: alt
       text: Get Document
-      link: ./communities/information
+      link: /docs/communities/information
 
 features:
   - icon: 🌐
