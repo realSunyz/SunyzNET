@@ -23,39 +23,39 @@ export default defineConfig({
     logo: "https://cdn.sunyz.net/logos/sunyznetwork.webp",
     siteTitle: false,
     nav: [
-      { text: "About", link: "/about/mission" },
-      { text: "Peering", link: "/peering/policy" },
-      { text: "Communities", link: "/communities/information" },
+      { text: "About", link: "/docs/about/mission" },
+      { text: "Peering", link: "/docs/peering/policy" },
+      { text: "Communities", link: "/docs/communities/information" },
     ],
     sidebar: [
       {
         text: "About",
         items: [
-          { text: "Mission", link: "/about/mission" },
-          { text: "Contact", link: "/about/contact" },
+          { text: "Mission", link: "/docs/about/mission" },
+          { text: "Contact", link: "/docs/about/contact" },
         ],
       },
       {
         text: "Peering",
         items: [
-          { text: "General Policy", link: "/peering/policy" },
-          { text: "Internet Exchanges", link: "/peering/ix" },
-          { text: "Direct Session", link: "/peering/direct" },
+          { text: "General Policy", link: "/docs/peering/policy" },
+          { text: "Internet Exchanges", link: "/docs/peering/ix" },
+          { text: "Direct Session", link: "/docs/peering/direct" },
         ],
       },
       {
         text: "Algorithm",
         items: [
-          { text: "Received Routes", link: "/algorithm/import" },
-          { text: "Exported Routes", link: "/algorithm/export" },
+          { text: "Received Routes", link: "/docs/algorithm/import" },
+          { text: "Exported Routes", link: "/docs/algorithm/export" },
         ],
       },
       {
         text: "BGP Communities",
         items: [
-          { text: "Information Communities", link: "/communities/information" },
-          { text: "Control Communities", link: "/communities/control" },
-          { text: "Code Definition", link: "/communities/codes" },
+          { text: "Information Communities", link: "/docs/communities/information" },
+          { text: "Control Communities", link: "/docs/communities/control" },
+          { text: "Code Definition", link: "/docs/communities/codes" },
         ],
       },
     ],
@@ -64,7 +64,7 @@ export default defineConfig({
     },
   },
   cleanUrls: true,
-  srcDir: "./docs/",
+  srcDir: "./",
   sitemap: {
     hostname: 'https://sunyz.net'
   }

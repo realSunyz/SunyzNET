@@ -19,7 +19,7 @@ The following rules apply to all scenarios unless explicitly noted.
     :::
 2. Reject Bogon Prefixes
 3. Reject Routes Containing Bogon ASNs in their AS-path.
-    - Bogon prefixes and ASNs are defined by the Internet Assigned Numbers Authority (IANA). See the reference at [/algorithm/bogon](/algorithm/bogon).
+    - Bogon prefixes and ASNs are defined by the Internet Assigned Numbers Authority (IANA). See the reference at [/algorithm/bogon](/docs/algorithm/bogon).
     ::: tip Why we do this?
     Bogons are IP ranges and AS numbers that are unallocated or reserved and have no place in the global routing table. Filtering them is essential to prevent hijacks, accidental leaks, and routing instability.
     :::

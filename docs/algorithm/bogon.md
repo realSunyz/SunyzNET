@@ -11,7 +11,7 @@ We base our bogon filters on NLNOG's BGP documentation.
 The tables below list the exact bogon prefixes and ASNs we reject on all routers, and may differ slightly from other sources.
 
 ::: warning Important
-If you discover any mistakes on this page - especially ones that could introduce security or routing vulnerabilities - please [contact our NOC](/about/contact) immediately. We greatly appreciate your help in keeping our filters accurate and the network secure.  
+If you discover any mistakes on this page - especially ones that could introduce security or routing vulnerabilities - please [contact our NOC](/docs/about/contact) immediately. We greatly appreciate your help in keeping our filters accurate and the network secure.  
 :::
 
 ## IPv4 Bogon Prefixes
