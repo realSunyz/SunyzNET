@@ -9,20 +9,23 @@ next: false
 
 ## PoP List
 
-| Location             | Abbreviation | Code  | Status                                                                 |
-| -------------------- | ------------ | ----- | ---------------------------------------------------------------------- |
-| 🇩🇪 Frankfurt am Main | `de-fra01`   | `111` | <Badge type="warning" text="✘" />                                      |
-| 🇨🇭 Zurich            | `ch-zrh01`   | `121` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1oe0i.svg) |
-| 🇬🇧 London            | `uk-lhr01`   | `131` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/28nr1.svg) |
-| 🇺🇸 San Jose          | `us-sjc01`   | `211` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1oh4o.svg) |
-| 🇺🇸 Las Vegas         | `us-las01`   | `212` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/28nqd.svg) |
-| 🇺🇸 Kansas City       | `us-mci01`   | `213` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/28nqa.svg) |
-| 🇨🇦 Toronto           | `ca-yyz01`   | `221` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1pfp0.svg) |
-| 🇭🇰 Hong Kong     | `cn-hkg01`   | `311` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1omy7.svg) |
-| 🇭🇰 Hong Kong     | `cn-hkg02`   | `312` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1srsc.svg) |
-| 🇹🇼 Taipei            | `tw-tpe01`   | `321` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/28nqv.svg) |
-| 🇸🇬 Singapore         | `sg-sin01`   | `331` | <Badge type="warning" text="✘" />                                      |
-| 🇦🇺 Melbourne         | `au-mel01`   | `411` | ![](https://uptime.betterstack.com/status-badges/v2/monitor/1oe0j.svg) |
+For the real-time status, please visit [monitor.sunyz.net](https://monitor.sunyz.net).
+
+| Location             | Name       | Code  |
+| -------------------- | ---------- | ----- |
+| 🇩🇪 Frankfurt am Main | `de-fra01` | `111` |
+| 🇨🇭 Zurich            | `ch-zrh01` | `121` |
+| 🇬🇧 London            | `uk-lhr01` | `131` |
+| 🇺🇸 San Jose          | `us-sjc01` | `211` |
+| 🇺🇸 Las Vegas         | `us-las01` | `212` |
+| 🇺🇸 Kansas City       | `us-mci01` | `213` |
+| 🇨🇦 Toronto           | `ca-yyz01` | `221` |
+| 🇭🇰 Hong Kong         | `cn-hkg01` | `311` |
+| 🇭🇰 Hong Kong         | `cn-hkg02` | `312` |
+| 🇭🇰 Hong Kong         | `cn-hkg03` | `313` |
+| 🇹🇼 Taipei            | `tw-tpe01` | `321` |
+| 🇸🇬 Singapore         | `sg-sin01` | `331` |
+| 🇦🇺 Melbourne         | `au-mel01` | `411` |
 
 ## Region List
 
