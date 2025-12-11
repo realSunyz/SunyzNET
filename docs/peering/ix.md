@@ -28,9 +28,11 @@ We strive to keep this page up to date, but please also refer to our PeeringDB e
 
 | Name                                                                                 | IPv4       | IPv6                         |
 | ------------------------------------------------------------------------------------ | ---------- | ---------------------------- |
-| 🇨🇭 [FogIXP](https://www.peeringdb.com/ix/3756) <Badge type="tip" text="RS3 only" />  | -          | 2001:7f8:ca:1:0:15:289:1     |
+| 🇨🇭 [FogIXP](https://www.peeringdb.com/ix/3756) <Badge type="tip" text="RS*" />  | -          | 2001:7f8:ca:1:0:15:289:1     |
 | 🇨🇭 [4b42 IXP](https://www.peeringdb.com/ix/2447) <Badge type="tip" text="RS" />      | -          | 2001:7f8:d0::2:4b11:1        |
 | 🇹🇼 [Poema IX](https://www.peeringdb.com/ix/3792) <Badge type="tip" text="RS" />      | -          | 2404:f4c0:f70e:1980::150:289 |
 | 🇭🇰 [ZXIX HK](https://www.peeringdb.com/ix/3246) <Badge type="tip" text="RS" />       | -          | 2406:840:1f:1000:0:15:289:1  |
+| 🇭🇰 [DataSphere IX](https://www.peeringdb.com/ix/4440) <Badge type="tip" text="RS" /> | -          | 2602:f613::1502:89:1         |
 | 🇸🇬 [Impart IX](https://www.peeringdb.com/ix/4185)                                    | 185.0.34.8 | 2001:7f8:145:1001:0:15:289:1 |
-| 🇭🇰 [DataSphere IX](https://www.peeringdb.com/ix/4440) <Badge type="info" text="Pending" /> | -          | 2602:f613::1502:89:1         |
+
+\* Due to FogIXP's failure to properly configure the filters, we are currently only able to peer with RS3.
